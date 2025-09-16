@@ -60,7 +60,7 @@ def consumo_combustivel():
 print("Escolha a opção desejada:")
 print("1 - Análise de saúde do peso (IMC)")
 print("2 - Análise de consumo de combustível")
-print("3 - Análise de controle de velocidade"
+print("3 - Análise de controle de velocidade")
 
 opcao = input("\nDigite: ")
 
@@ -69,6 +69,6 @@ if opcao == "1":
 elif opcao == "2":
     consumo_combustivel()
 elif opcao == "3":
-    analise_velocidade
+    analise_velocidade()
 else:
     print("Opção inválida.")
